@@ -1,7 +1,11 @@
 ### UI 및 static 파일 관련 git 리포지트리 작업은 데스크탑 Git tortoise 사용
 ### 기능 및 개발 관련 git 리포지트리는 Eclipse 프로젝트내에서 Git bash 사용
-### Git Subtree 장점* 서브 리포지트리를 Copy 하는 개념이므로 CI-CD 배포시 브랜치 및 리포지트리를 연동 시키기 위해 따로 추가 작업이 없음* SYNC에 대한 우려가 없으므로 직관적으로 작업 할 수 있음  
-###Git Subtree 단점* 개발 리포지트리에서 static 파일을 수정시 개발기 리포지트리와 서브트리 리포지트리 두곳에 동시에 push를 해주어야 함* 서브트리 리포지트리 push 시 git bash에서 command 명령어로 푸쉬 해야함
+### Git Subtree 장점 
+	* 서브 리포지트리를 Copy 하는 개념이므로 CI-CD 배포시 브랜치 및 리포지트리를 연동 시키기 위해 따로 추가 작업이 없음
+	* SYNC에 대한 우려가 없으므로 직관적으로 작업 할 수 있음  
+### Git Subtree 단점
+	* 개발 리포지트리에서 static 파일을 수정시 개발기 리포지트리와 서브트리 리포지트리 두곳에 동시에 push를 해주어야 함
+	* 서브트리 리포지트리 push 시 git bash에서 command 명령어로 푸쉬 해야함
 
 
 
